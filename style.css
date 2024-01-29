@@ -1,16 +1,16 @@
 /* Write Your CSS Below 
 Colors: 
-- rgb(243, 183, 106)
+- rgb(243, 183, 106) (also yellow)
 - yellow
-- rgb(241, 117, 0)
+- rgb(241, 117, 0) (also orange)
 - red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
+- #f3b76a (yellow)
+- #f17500 (orange)
+- #0d6e00 (dark green)
+- #6d00fb (purple)
+- #dbff39 (neon yellow)
+- #74c9f1 (light blue)
+- #fb4040 (red)
 
 Sizes: 
 - 100%
@@ -27,3 +27,78 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("./background-img.jpg");
+  background-size: cover;
+  padding: 3rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(#74c9f1, #fb4040);
+  border-radius: 15px;
+  color: #6d00fb;
+  text-decoration: underline;
+  text-shadow: #dbff39 1px 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#row2{
+  margin-left: auto;
+}
+
+#row1-section1,
+#row2-section1 {
+  width: 600px;
+}
+
+#row1-section2,
+#row2-section2 {
+  width: 600px;
+}
+
+
+#jordans-1,
+#jordans-2 {
+  height: 400px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#jordans-1 {
+  box-shadow: 3px 1px 2px 2px blue;
+}
+
+#jordans-1-desc {
+  background-color: #74c9f1;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid #f17500;
+}
+
+#jordans-2 {
+  box-shadow: -3px -1px 2px 1px red;
+}
+
+#jordans-2-desc {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid #0d6e00;
+}
